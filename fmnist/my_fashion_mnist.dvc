@@ -1,0 +1,12 @@
+md5: a26010ff358885a63e5172516fec177e
+frozen: true
+deps:
+- path: images/my_fashion_mnist
+  repo:
+    url: git@github.com:VisiumCH/metrohm-dvc-demo.git
+    rev_lock: 0df2acb89174828121d722f2843f4f1ff10ed0ce
+outs:
+- md5: 0c6f11cb245958d45c13f5141c5b940d.dir
+  size: 54953123
+  nfiles: 7
+  path: my_fashion_mnist
