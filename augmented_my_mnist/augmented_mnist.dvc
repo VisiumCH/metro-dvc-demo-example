@@ -1,0 +1,13 @@
+md5: d3d7ba93ec977dd6b7b1481f5b9da45a
+frozen: true
+deps:
+- path: images/augmented_mnist
+  repo:
+    url: git@github.com:VisiumCH/metrohm-dvc-demo.git
+    rev: new_dataset
+    rev_lock: af0ddf66675d7f2d4f0c61bd04cd9da9cd3e9226
+outs:
+- md5: 5b774b56ed79e1a57c4f1bddf5c8b776.dir
+  size: 134899612
+  nfiles: 18
+  path: augmented_mnist

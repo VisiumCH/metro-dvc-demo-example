@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python3 mnist.py
+    deps:
+    - path: augmented_mnist/data/tensorflow_datasets
+      md5: e3253e6024c20f6fbc9204835bce4509.dir
+      size: 24503236
+      nfiles: 4
+    - path: mnist.py
+      md5: a4bba206fe3fe1d1427c309ea8553015
+      size: 1710
+    params:
+      params.py:
+        TrainConfig.EPOCHS: 5
+        TrainConfig.LEARNING_RATE: 0.01

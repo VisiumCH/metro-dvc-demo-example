@@ -1,0 +1,13 @@
+stages:
+  train:
+    cmd: python3 mnist.py
+
+    deps:
+      - mnist.py
+      - augmented_mnist/data/tensorflow_datasets
+    
+    params:
+      - params.py:
+          - TrainConfig.EPOCHS
+          - TrainConfig.LEARNING_RATE
+    
