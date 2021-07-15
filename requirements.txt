@@ -1,3 +1,7 @@
 # external requirements
+dvc[gs]
 mlflow
 tensorflow
+tensorflow-datasets
+tensorflow.io
+params
