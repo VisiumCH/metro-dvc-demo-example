@@ -17,6 +17,8 @@ git clone git@github.com:VisiumCH/metrohm-dvc-demo-example.git
 ```
 
 2. Install all requirements from requirements.txt
+
+Note: It's best to create a new python environment
 ```bash
 python3 -m pip install -r requirements.txt
 ```
@@ -40,6 +42,8 @@ python augmented_my_mnist/mnist.py
 ```bash
 mlflow ui
 ```
+
+7. Keep on creating new runs and vary the parameters
 
 ## Ressources
 General information about MLflow experiment tracking: https://www.mlflow.org/docs/latest/tracking.html
