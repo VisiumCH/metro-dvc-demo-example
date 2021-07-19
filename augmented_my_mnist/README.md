@@ -2,5 +2,5 @@
 
 ```bash
 dvc pull
-dvc repro
+dvc repro  # Trains the model as defined in dvc.yaml file.
 ```
