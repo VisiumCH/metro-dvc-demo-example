@@ -17,10 +17,9 @@ mlflow.tensorflow.autolog()  # Start the MLFlow tracker to log all default tenso
     split=["train", "test"],
     shuffle_files=True,
     as_supervised=True,
-    with_info=False,
+    with_info=True,
     data_dir="augmented_mnist/data/tensorflow_datasets"
 )
-
 
 def normalize_img(image, label):
     """Normalizes images: `uint8` -> `float32`."""

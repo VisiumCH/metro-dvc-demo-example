@@ -1,8 +1,6 @@
 # external requirements
 dvc[gs]
 mlflow
-tf-nightly
-#tensorflow
-tensorflow-datasets
-#tensorflow.io
+tfds-nightly
+tensorflow
 params
