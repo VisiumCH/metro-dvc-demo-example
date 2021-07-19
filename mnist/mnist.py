@@ -3,6 +3,9 @@
 import tensorflow_datasets as tfds
 import tensorflow as tf
 
+import mlflow.tensorflow
+
+mlflow.tensorflow.autolog()  # Start the MLFlow tracker to log all default tensorflow parameters
 
 import my_mnist
 
